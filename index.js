@@ -14,7 +14,7 @@ require('http')
          'Content-Type': 'text/html; charset=utf-8'
       });
 
-      res.end('<h1>Не найдено!</h1>');
+      res.end('<h1>Привет герценовцам!</h1>');
     }
     res.writeHead(200, {
       'Content-Type': 'text/javascript; charset=utf-8'
